@@ -1,0 +1,377 @@
+@media screen and (max-width: 1280px){
+
+    .dropdown {
+        display: none;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu .menu-lists li{
+        width: 19%;
+        margin-right: 15px;
+    }
+
+    .menu-lists li:nth-child(5){
+        margin-right: 0;
+    }
+
+
+    .top{
+        width: 100%;
+    }
+
+    .top .image-description{
+        width: 70%;
+    }
+
+    .top .price{
+        width: 28%;
+    }
+
+    .features{
+        width: 100%;
+    }
+
+    .features .product{
+        width: 23%;
+        margin-right: 33px;
+    }
+
+    .features .product:nth-last-child(1) {
+        float: left;
+        margin-right: 0px;
+    }
+
+    /************************/
+
+    .features .product .fas {
+        margin-top: 10px;
+    }
+}
+/*==========================
+============================
+        iPad
+============================
+==========================*/
+
+@media screen and (max-width:768px) {
+
+    .dropdown {
+        display: none;
+    }
+
+    .top {
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin: 0 auto;
+        height: 2700px;
+    }
+
+    .menu-lists a{
+        padding: 12px;
+        font-weight: 700;
+        font-size: 17px;
+    }
+
+    .menu-lists {
+        position: relative;
+    }
+
+    .menu .menu-lists li {
+        width: 19%;
+        margin-right: 8px;
+        float: left;
+        position: relative;
+    }
+
+    .menu .menu-lists li:nth-last-child(1){
+        margin-right: 0px;
+    }
+
+    .top .image-description {
+        background-position: right;
+        background-size: cover;
+        width: 69%;
+        height: 400px;
+    }
+
+    .top .image-description h2{
+        font-weight: 500;
+        font-size: 28px;
+        position: relative;
+        width: 50%;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .top .image-description p{
+        font-size: 15px;
+        font-weight: 800;
+        position: absolute;
+        text-align: center;
+        width: 20%;
+    }
+
+    .product {
+        width: 20%;
+        margin-right: 15px;
+    }
+
+    .features {
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .description {
+        background-position-x: 10%;
+        background-position-y: 50%;
+    }
+    .description h2 {
+        padding-left: 60%;
+        padding-top: 15%;
+    }
+    
+    .description p {
+        padding-left: 60%;
+        width: 28%;
+    }
+
+    .description .description-button {
+        width: 15%;
+        margin-left: 60%;
+    }
+
+
+
+    .gallery h2::before {
+        width: 38%;
+        background: linear-gradient(90deg,#f5f5f53b,#ffc600);
+    }
+
+    .gallery h2::after {
+        width: 38%;
+        background: linear-gradient(90deg,#ffc600, #f5f5f53b);
+    }
+
+    .gallery .gallery-img:nth-last-child(){
+        float: left;
+        justify-content: space-between;
+    }
+
+    .gallery .gallery-img {
+        width: 30%;
+        margin-right: 5%;
+    }
+        
+    .gallery .gallery-img:nth-last-child(3n+2){
+        margin-right: 0%;
+    }
+
+    .gallery .gallery-img:nth-last-child(5n+1) {
+        float: left;
+        margin-right: 5%;
+    }
+}
+
+
+/*========================
+==========================
+    iPhone 6/7/8
+==========================
+========================*/
+
+
+@media screen and (max-width: 376px){
+
+    .body {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+
+    .menu-lists {
+        position: relative;
+        display: none;
+    }
+
+    .menu .menu-lists li {
+        width: 45%;
+    }
+
+    .menu .menu-lists li{
+        width: 47%;
+        margin-right: 6%;
+        margin-bottom: 2%;
+    }
+
+    .menu .menu-lists li:nth-last-child(2n+2){
+        margin-right: 0%;
+    }
+
+    .top {
+        margin-top: 2%;
+    }
+
+    .top .image-description {
+        width: 100%;
+    }
+
+    .top .image-description h2 {
+        text-align: left;
+        width: 52%;
+        padding: 2%;
+        margin: 0 auto;
+        margin-top: 45%;
+    }
+
+    .top .image-description p {
+        width: 38%;
+        margin-top: 3%;
+        margin-left: 17%;
+    }
+
+    .top .price {
+        width: 100%;
+        height: 30%;
+        margin-top: 8%;
+        margin-bottom: 0%;
+    }
+
+    .top .price h2 {
+        margin-top: 2%;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .features .product {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-right: 0%;
+    }
+
+    .description {
+        background-size: 60%;
+        background-position-x: 50%;
+        background-position-y: 15%;
+    }
+
+    .description h2 {
+        padding-left: 18%;
+        padding-top: 60%;
+
+    }
+
+    .description p {
+        padding-left: 18%;
+        width: 65%;
+    }
+
+    .description .description-button {
+        width: 45%;
+        margin-left: 18%;
+    }
+
+    .gallery h2::before {
+        width: 20%;
+        height: 10px;
+        background: linear-gradient(90deg, #f5f5f500, #ffc600);
+
+    }
+
+
+    .gallery h2::after {
+        width: 20%;
+        height: 10px;
+        background: linear-gradient(90deg, #ffc600, #f5f5f500);
+    }
+
+    .gallery .gallery-img {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .gallery .gallery-img img {
+        height: 100%;
+    }
+
+    /***********************
+        DROPDOWN MENU
+    ***********************/
+
+    .dropbtn {
+        background-color:#ffc600;
+        color: #272727;
+        padding: 15px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        width: 35%;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: inherit;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background: linear-gradient(90deg, #ffc600, #f3b32865)
+    }
+
+
+
+    .dropdown:hover .dropbtn {
+        background: linear-gradient(90deg, #ffc600, #fff2b7bb);
+    }
+
+    .wrapper .dropdown .dropdown-content li{
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 10px;
+        background: #ffc600;
+    }
+
+
+    .wrapper .dropdown .dropdown-content ul{
+        text-align: center;
+        padding-left: 0px;
+    }
+
+
+
+}
+
+    
+
+
+
+
